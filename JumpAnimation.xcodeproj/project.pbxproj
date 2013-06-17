@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0EC4E43176EA9180032AF49 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0EC4E42176EA9180032AF49 /* UIKit.framework */; };
+		F0EC4E45176EA9180032AF49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0EC4E44176EA9180032AF49 /* Foundation.framework */; };
+		F0EC4E47176EA9180032AF49 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0EC4E46176EA9180032AF49 /* CoreGraphics.framework */; };
+		F0EC4E4D176EA9180032AF49 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0EC4E4B176EA9180032AF49 /* InfoPlist.strings */; };
+		F0EC4E4F176EA9180032AF49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0EC4E4E176EA9180032AF49 /* main.m */; };
+		F0EC4E53176EA9180032AF49 /* MaxAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0EC4E52176EA9180032AF49 /* MaxAppDelegate.m */; };
+		F0EC4E55176EA9180032AF49 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F0EC4E54176EA9180032AF49 /* Default.png */; };
+		F0EC4E57176EA9180032AF49 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0EC4E56176EA9180032AF49 /* Default@2x.png */; };
+		F0EC4E59176EA9180032AF49 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0EC4E58176EA9180032AF49 /* Default-568h@2x.png */; };
+		F0EC4E61176EA9700032AF49 /* MaxWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = F0EC4E60176EA9700032AF49 /* MaxWindow.m */; };
+		F0EC4EE1176F13610032AF49 /* CMJumpAniLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F0EC4EE0176F13610032AF49 /* CMJumpAniLayer.m */; };
+		F0EC4EE3176F14C90032AF49 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0EC4EE2176F14C90032AF49 /* QuartzCore.framework */; };
+		F0EC4EEA176F15440032AF49 /* ball@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0EC4EE9176F15440032AF49 /* ball@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F0EC4E3F176EA9180032AF49 /* JumpAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JumpAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0EC4E42176EA9180032AF49 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F0EC4E44176EA9180032AF49 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F0EC4E46176EA9180032AF49 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F0EC4E4A176EA9180032AF49 /* JumpAnimation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JumpAnimation-Info.plist"; sourceTree = "<group>"; };
+		F0EC4E4C176EA9180032AF49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F0EC4E4E176EA9180032AF49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F0EC4E50176EA9180032AF49 /* JumpAnimation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JumpAnimation-Prefix.pch"; sourceTree = "<group>"; };
+		F0EC4E51176EA9180032AF49 /* MaxAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaxAppDelegate.h; sourceTree = "<group>"; };
+		F0EC4E52176EA9180032AF49 /* MaxAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaxAppDelegate.m; sourceTree = "<group>"; };
+		F0EC4E54176EA9180032AF49 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F0EC4E56176EA9180032AF49 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F0EC4E58176EA9180032AF49 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F0EC4E5F176EA9700032AF49 /* MaxWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaxWindow.h; sourceTree = "<group>"; };
+		F0EC4E60176EA9700032AF49 /* MaxWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaxWindow.m; sourceTree = "<group>"; };
+		F0EC4EDF176F13610032AF49 /* CMJumpAniLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMJumpAniLayer.h; sourceTree = "<group>"; };
+		F0EC4EE0176F13610032AF49 /* CMJumpAniLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMJumpAniLayer.m; sourceTree = "<group>"; };
+		F0EC4EE2176F14C90032AF49 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F0EC4EE9176F15440032AF49 /* ball@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ball@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0EC4E3C176EA9180032AF49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0EC4EE3176F14C90032AF49 /* QuartzCore.framework in Frameworks */,
+				F0EC4E43176EA9180032AF49 /* UIKit.framework in Frameworks */,
+				F0EC4E45176EA9180032AF49 /* Foundation.framework in Frameworks */,
+				F0EC4E47176EA9180032AF49 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0EC4E36176EA9180032AF49 = {
+			isa = PBXGroup;
+			children = (
+				F0EC4EE2176F14C90032AF49 /* QuartzCore.framework */,
+				F0EC4E48176EA9180032AF49 /* JumpAnimation */,
+				F0EC4E41176EA9180032AF49 /* Frameworks */,
+				F0EC4E40176EA9180032AF49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0EC4E40176EA9180032AF49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0EC4E3F176EA9180032AF49 /* JumpAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0EC4E41176EA9180032AF49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0EC4E42176EA9180032AF49 /* UIKit.framework */,
+				F0EC4E44176EA9180032AF49 /* Foundation.framework */,
+				F0EC4E46176EA9180032AF49 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0EC4E48176EA9180032AF49 /* JumpAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				F0EC4E51176EA9180032AF49 /* MaxAppDelegate.h */,
+				F0EC4E52176EA9180032AF49 /* MaxAppDelegate.m */,
+				F0EC4E49176EA9180032AF49 /* Supporting Files */,
+				F0EC4E5F176EA9700032AF49 /* MaxWindow.h */,
+				F0EC4E60176EA9700032AF49 /* MaxWindow.m */,
+				F0EC4EDF176F13610032AF49 /* CMJumpAniLayer.h */,
+				F0EC4EE0176F13610032AF49 /* CMJumpAniLayer.m */,
+				F0EC4EE4176F153A0032AF49 /* resource */,
+			);
+			path = JumpAnimation;
+			sourceTree = "<group>";
+		};
+		F0EC4E49176EA9180032AF49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0EC4E4A176EA9180032AF49 /* JumpAnimation-Info.plist */,
+				F0EC4E4B176EA9180032AF49 /* InfoPlist.strings */,
+				F0EC4E4E176EA9180032AF49 /* main.m */,
+				F0EC4E50176EA9180032AF49 /* JumpAnimation-Prefix.pch */,
+				F0EC4E54176EA9180032AF49 /* Default.png */,
+				F0EC4E56176EA9180032AF49 /* Default@2x.png */,
+				F0EC4E58176EA9180032AF49 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0EC4EE4176F153A0032AF49 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				F0EC4EE9176F15440032AF49 /* ball@2x.png */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0EC4E3E176EA9180032AF49 /* JumpAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0EC4E5C176EA9180032AF49 /* Build configuration list for PBXNativeTarget "JumpAnimation" */;
+			buildPhases = (
+				F0EC4E3B176EA9180032AF49 /* Sources */,
+				F0EC4E3C176EA9180032AF49 /* Frameworks */,
+				F0EC4E3D176EA9180032AF49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JumpAnimation;
+			productName = JumpAnimation;
+			productReference = F0EC4E3F176EA9180032AF49 /* JumpAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0EC4E37176EA9180032AF49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Max;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Max;
+			};
+			buildConfigurationList = F0EC4E3A176EA9180032AF49 /* Build configuration list for PBXProject "JumpAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F0EC4E36176EA9180032AF49;
+			productRefGroup = F0EC4E40176EA9180032AF49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0EC4E3E176EA9180032AF49 /* JumpAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0EC4E3D176EA9180032AF49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0EC4E4D176EA9180032AF49 /* InfoPlist.strings in Resources */,
+				F0EC4E55176EA9180032AF49 /* Default.png in Resources */,
+				F0EC4E57176EA9180032AF49 /* Default@2x.png in Resources */,
+				F0EC4E59176EA9180032AF49 /* Default-568h@2x.png in Resources */,
+				F0EC4EEA176F15440032AF49 /* ball@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0EC4E3B176EA9180032AF49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0EC4E4F176EA9180032AF49 /* main.m in Sources */,
+				F0EC4E53176EA9180032AF49 /* MaxAppDelegate.m in Sources */,
+				F0EC4E61176EA9700032AF49 /* MaxWindow.m in Sources */,
+				F0EC4EE1176F13610032AF49 /* CMJumpAniLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F0EC4E4B176EA9180032AF49 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0EC4E4C176EA9180032AF49 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0EC4E5A176EA9180032AF49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F0EC4E5B176EA9180032AF49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0EC4E5D176EA9180032AF49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JumpAnimation/JumpAnimation-Prefix.pch";
+				INFOPLIST_FILE = "JumpAnimation/JumpAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F0EC4E5E176EA9180032AF49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JumpAnimation/JumpAnimation-Prefix.pch";
+				INFOPLIST_FILE = "JumpAnimation/JumpAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0EC4E3A176EA9180032AF49 /* Build configuration list for PBXProject "JumpAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0EC4E5A176EA9180032AF49 /* Debug */,
+				F0EC4E5B176EA9180032AF49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0EC4E5C176EA9180032AF49 /* Build configuration list for PBXNativeTarget "JumpAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0EC4E5D176EA9180032AF49 /* Debug */,
+				F0EC4E5E176EA9180032AF49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0EC4E37176EA9180032AF49 /* Project object */;
+}
