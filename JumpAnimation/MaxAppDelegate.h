@@ -6,7 +6,7 @@
 //  email:smileshitou@hotmail.com
 //  Copyright (c) 2013年 Max. All rights reserved.
 //
-
+//  add comment
 #import <UIKit/UIKit.h>
 
 @interface MaxAppDelegate : UIResponder <UIApplicationDelegate>
